@@ -1,19 +1,21 @@
 /* styles.css */
 
+.odd {
+	font-family: Verdana, "DejaVu Sans", sans-serif;
+	background-color: rgba(255, 51, 153, 0.5);
+}
+
+.odd.odd3,
+#even4 {
+	font-size: 24px;
+}
+
 #even2 {
 	color:rgb(0, 0, 255);
 	font-size: 36px;
 }
 #even4 {
 	background-color: #90EE90;
-	font-size: 24px;
 	font-weight: bold;
-}
-.odd {
-	background-color: #FFCCCB;
-	font-family: "Verdana", "DejaVu Sans", sans-serif;
-}
-.odd3 {
-	font-size: 24px;
 }
 
